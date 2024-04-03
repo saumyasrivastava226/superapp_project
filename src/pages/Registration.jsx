@@ -1,4 +1,5 @@
 import React, { useState } from "react"
+import bgImage from "../assets/image 13.png"
 
 export default function Registration(){
     const[name,setName]= useState();
@@ -9,8 +10,15 @@ export default function Registration(){
         
 
     return (
-        // We are going to need state variables
-      
-        <div>Registration</div>
+        <div>
+          <div>
+            <img src= {bgImage}/>
+          </div>
+           <div>
+             <div></div>
+             <div></div>
+             <div></div>
+          </div>
+        </div>
     )
 }
